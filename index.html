@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            JS
+        </title>
+        <script>
+            let filmIronMan = "Железный человек"
+            let filmSpiderMan = "Человек-паук"
+            let filmBatMan = "Бэтмэн"
+            let filmMatrix = "Матрица"
+            let first = prompt("Оцените фильм " + filmMatrix + " по шкале от 1 до 10.")
+            
+            if (first <= 3) {
+                console.log (filmMatrix + " плохой фильм!")
+                const vopros = confirm("Будешь оценивать следующий фильм?")
+                if (vopros === true) {
+                    let second = prompt("Оцените фильм " + filmIronMan + " по шкале от 1 до 10.")
+                    if (second <= 3) {
+                        console.log (filmIronMan + " плохой фильм!")
+                        const vopros = confirm("Будешь оценивать следующий фильм?")
+                        if (vopros === true) {
+                            let third = prompt("Оцените фильм " + filmSpiderMan + " по шкале от 1 до 10.")
+                            if (second <= 3) {
+                            console.log (filmSpiderMan + " плохой фильм!")
+                            const vopros = confirm("Будешь оценивать следующий фильм?")
+                                if (vopros === true) {
+                                    let fourth = promt("Оцените фильм " + filmBatMan + " по шкале от 1 до 10.")
+                                    if (second <= 3) {
+                                    console.log (filmBatMan + " плохой фильм!")
+                                    }
+                                }    
+                                else {
+                                    console.log("Давай досвиданья!")
+                                }                               
+                            }
+                            else {
+                                console.log("Давай досвиданья!")
+                            }
+                        }
+                        else {
+                            console.log("Давай досвиданья!")
+                        }
+                    }
+                    else {
+                        console.log("Давай досвиданья!")
+                    }
+                }
+                else {
+                        console.log("Давай досвиданья!")
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        fgfg
+    </body>
+</html>
