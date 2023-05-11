@@ -1,0 +1,1 @@
+https://i-petr.github.io/movie_rating/
